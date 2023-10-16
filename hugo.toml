@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+languageCode = 'es'
+title = 'DJs Dix'
+theme = 'hugo-PaperMod'
+
+
+[author]
+  name = "Julio Bielsa"
+  homepage = "https://github.com/adityatelange/"
+
+
+
+[menu]
+  [[menu.main]]
+    identifier = "cascos"
+    name = "Cascos"
+    title = "Cascos"
+    url = "/Cascos/"
+    weight = 0
+  [[menu.main]]
+    identifier = "controladoras"
+    name = "Controladoras"
+    title = "Controladoras"
+    url = "/Controladoras/"
+    weight = 0
+  [[menu.main]]
+    identifier = "noticias"
+    name = "Noticias"
+    title = "Noticias"
+    url = "/Noticias/"
+    weight = 0
